@@ -213,7 +213,7 @@ export const MintCText2 = styled.div`
   color: white;
   font-size: 24px;
   position: absolute;
-  padding-left: 365px;
+  padding-left: 345px;
 `;
 
 export const PriceText = styled.div`
