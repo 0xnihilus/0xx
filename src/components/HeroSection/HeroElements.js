@@ -58,7 +58,7 @@ export const HeroContent = styled.div`
   position: absolute;
   display: flex;
   align-items: center;
-  background: #ffd30b;
+  
   margin-bottom: 111px;
 `;
 
@@ -85,6 +85,16 @@ export const MintDiv = styled.div`
   position: relative;
   background: #282828;
   border-radius: 25px;
+
+  @media only screen and (max-width: 600px) {
+  
+    height: 500px;
+    width: 320px;
+    position: relative;
+    background: #282828;
+    border-radius: 25px;
+  
+}
 `;
 
 export const MiniAbout = styled.p`
@@ -167,6 +177,16 @@ export const MyNFT = styled.p`
   position: absolute;
   margin-top: 25px;
   margin-left: 33%;
+
+  @media only screen and (max-width: 600px) {
+  
+  color: white;
+  background: #282828;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 25%;
+
+}
 `;
 
 export const First = styled.p`
@@ -207,6 +227,14 @@ export const PriceText2 = styled.div`
   font-size: 24px;
   position: absolute;
   padding-left: 390px;
+
+  @media only screen and (max-width: 600px) {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  padding-left: 240px;
+
+}
 `;
 
 export const MintCText2 = styled.div`
@@ -214,6 +242,14 @@ export const MintCText2 = styled.div`
   font-size: 24px;
   position: absolute;
   padding-left: 345px;
+
+  @media only screen and (max-width: 600px) {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  padding-left: 190px;
+
+}
 `;
 
 export const PriceText = styled.div`
