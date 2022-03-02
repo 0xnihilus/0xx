@@ -18,4 +18,12 @@ export const Logo = styled.img`
   margin-left: auto;
   margin-right: auto;
   background: #ffd30b;
+  
+  @media only screen and (max-width: 600px) {
+  display: flex;
+  height: 150px;
+  margin-left: -30px;
+  margin-top: 10px;
+  background: #ffd30b;
+  }
 `;
